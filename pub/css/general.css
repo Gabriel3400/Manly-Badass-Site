@@ -1,0 +1,27 @@
+:root {
+    --main-bg-grad: linear-gradient(30deg, #131862 0%, #2e4482 25%, #546bab 50%, #87889c 75%, #bea9de 95%);
+    --main-font: "Roboto Slab", sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.main-title {
+    display: flex;
+    background: var(--main-bg-grad);
+    height: 21vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5vh;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+strong {
+    font-weight: 800;
+}
